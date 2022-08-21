@@ -1,3 +1,4 @@
-import string
-ar = string.ascii_lowercase
-print(ar[0])
+import itertools
+
+for p in itertools.permutations(range(1,10)):
+    print(p)
